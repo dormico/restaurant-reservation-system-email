@@ -22,7 +22,7 @@ namespace Email
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            string userEmail = req.Query["userEmail"];
+            string userEmail = req.Query["email"];
 
             // This code demonstrates how to fetch your connection string
             // from an environment variable.
