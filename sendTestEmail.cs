@@ -31,8 +31,6 @@ namespace Email
 
             //Replace with your domain and modify the content, recipient details as required
 
-            //var userEmail = "odeak@edu.bme.hu";
-
             EmailContent emailContent = new EmailContent("Allegro - Your restaurant order details");
             //emailContent.Html = "Thank you for your purchase. Let us know, what do you think about our service. Give feedback here: <a>https://ambitious-desert-085d2d503.1.azurestaticapps.net/user/90930/feedback</a>";
             emailContent.Html = "Szia! <img src=\"https://www.rd.com/wp-content/uploads/2021/02/GettyImages-1208220393-e1612811442160.jpg\" width=360/>";

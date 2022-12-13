@@ -30,4 +30,9 @@ namespace Email
       public int Price { get; set; }
     }
   }
+
+  public class EmailRegConfirmation{
+    public string Email { get; set; }
+    public string Code { get; set; }
+  }
 }
