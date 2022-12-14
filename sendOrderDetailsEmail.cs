@@ -65,7 +65,7 @@ namespace Email
             }
             catch (Exception ex)
             {
-                log.LogError($"Could not sen email. Exception thrown: {ex.Message}");
+                log.LogError($"Could not send email. Exception thrown: {ex.Message}");
                 response = new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
             return response;
